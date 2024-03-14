@@ -103,10 +103,10 @@ body {
 
 .hero-content {
   position: absolute;
-  top: 50%;
+  top: 37%;
   right: 5%; /* Change from left: 5% to right: 5% */
   transform: translate(0, -50%);
-  width: 50%;
+  width: 100%;
   max-width: 600px;
   padding: 20px;
   color: #000;
@@ -129,7 +129,7 @@ body {
 
 .hero-paragraph {
   color: #fff;
-  font-size: 23px;
+  font-size: 17px;
   margin-bottom: 20px;
   word-wrap: break-word;
   hyphens: auto;
@@ -164,6 +164,61 @@ body {
   display: none;
 }
 
+/*DESKTOP PARAGRAPHS*/
+/*DESKTOP PARAGRAPHS*/
+/*DESKTOP PARAGRAPHS*/
+/*DESKTOP PARAGRAPHS*/
+
+.herodesktop-section {
+  bottom: 180px;
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0px;
+  color: #000;
+  text-align: center;
+}
+
+.herodesktop-heading {
+  color: #fff;
+  top: 200px;
+  font-size: 83px;
+  margin-bottom: 10px;
+  font-family: Italianno;
+  font-weight: normal;
+  text-shadow: 12px 23px 7px rgba(173, 216, 230, 0.9);
+}
+
+.herodesktop-paragraph {
+  color: #fff;
+  font-size: 17px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+.herophone-button {
+  font-weight: bold;
+  padding: 5px 10px; /* Adjust padding to change button size */
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 12px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; /* Center horizontally */
+  width: 60px; /* Set width of the button */
+  height: 20px; /* Set height of the button */
+}
+
+
+
+
+
 @media screen and (max-width: 1217px) {
 
   .textbox1-container {
@@ -195,7 +250,7 @@ body {
   
   .hero-content {
     position: absolute;
-    top: 50%;
+    top: 37%;
     right: 5%; /* Change from left: 5% to right: 5% */
     transform: translate(0, -50%);
     width: 50%;
@@ -221,7 +276,7 @@ body {
   
   .hero-paragraph {
     color: #fff;
-    font-size: 17px;
+    font-size: 14px;
     margin-bottom: 20px;
     word-wrap: break-word;
     hyphens: auto;
@@ -466,8 +521,32 @@ body {
   display: none;
 }
 
-.hero-content {
+.herodesktop-content {
   display: none;
+}
+
+.herodesktop-section {
+  display: none;
+}
+
+.herodesktop-image {
+  display: none;
+}
+
+.herodesktop-imagesmall {
+  display: none;
+}
+
+.herodesktop-content {
+  display: none;
+}
+
+.herodesktop-section1 {
+display: none;
+}
+
+.herodesktop-image1 {
+display: none;
 }
 
 .hero-section1 {
@@ -716,6 +795,14 @@ display: none
 
 .herophone-paragraph {
   display: none
+}
+
+.instagram-embed {
+  display: none;
+}
+
+.telegram-phone {
+  display: none;
 }
 
 }
